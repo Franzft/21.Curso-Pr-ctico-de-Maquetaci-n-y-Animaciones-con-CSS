@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="../src/index.js"></script>
+    <title>Lego - Franz</title>
+  </head>
+
+  <body>
+    <div class="page">
+      <section class="root">
+        <nav class="navbar">
+          <div>
+            <img src="https://i.ibb.co/MMmDPXN/lego.png" alt="logo lego" />
+            <ul>
+              <li><a href="https://tiendalego.com.co/collections/exclusivos" target="_blank">EXCLUSIVOS</a></li>
+              <li><a href="https://tiendalego.com.co/collections/novedades-lego" target="_blank">NUEVOS</a></li>
+              <li><a href="https://tiendalego.com.co/" target="_blank">GIFT CARDS</a></li>
+              <li><a href="https://tiendalego.com.co/" target="_blank">FIND A STORE</a></li>
+            </ul>
+          </div>
+        </nav>
+        <main class="main">
+          <p>Diseña tu</p>
+          <h1>Súper Héroe!</h1>
+          <p>
+            Esta landing page fue creada con Sass HTML y JavaScript, siguiendo
+            un curso de la plaforma platzi, esto para ir practicando la
+            maquetación y animaciones, sin embargo le agregue toques personales.
+            Espero te guste 💖
+          </p>
+        </main>
+        <aside class="aside">
+          <p>Batman</p>
+          <img src="/public/assets/batman.png" alt="image batman lego" />
+          <div></div>
+        </aside>
+        <footer class="footer">
+          <div>
+            <img
+              class="img"
+              src="/public/assets/joker.png"
+              width="160px"
+              alt="image joker lego"
+              id="joker"
+            />
+          </div>
+          <div>
+            <img
+              class="img"
+              src="../public/assets/deadpool.png"
+              width="200px"
+              alt="image deadpool lego"
+              id="deadpool"
+            />
+          </div>
+          <div>
+            <img
+              class="img"
+              src="../public/assets/spiderman.png"
+              width="200px"
+              alt="image spiderman lego"
+              id="spiderman"
+            />
+          </div>
+        </footer>
+      </section>
+      <section class="loader">
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+      <section class="modal hidden">
+        <div class="modal-content">
+          <img class="icon-close" src="./assets/close.svg" alt="icon cancel" />
+          <div class="modal-slider">
+            <input type="radio" name="slider-1" id="radio-1" checked />
+            <input type="radio" name="slider-1" id="radio-2" />
+            <input type="radio" name="slider-1" id="radio-3" />
+            <div class="cards">
+              <label for="radio-1" id="card-1" class="card">
+              </label>
+              <label for="radio-2" id="card-2" class="card">        
+              </label>
+              <label  for="radio-3" id="card-3" class="card">
+              </label>
+            </div>
+          </div>
+          <a href="https://tiendalego.com.co/" target="_blank" id="buy">Lo quiero</a>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
